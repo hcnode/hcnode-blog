@@ -29,7 +29,7 @@ android开发的同学，相信都遇到过在写代码的过程中，需要花�
 上面DI库用起来都是大同小异，而且性能都很好，因为它们基本都是编译时生成一些缓存来提供运行时使用，而不是运行时反射来调用。
 Android Annotation看上去功能最强大，支持大量的注解，除了view，event，还包括各种你可以想到的注入，比如service、resource、多线程、甚至还包括http服务注入！
 看下面官网的例子截图，使用Android Annotation后，代码简洁得异常残暴！！！
-![androidannotation](https://github.com/hcnode/hcnode-blog/blob/master/images/androidannotation?raw=true)
+![androidannotation](https://raw.githubusercontent.com/hcnode/hcnode-blog/master/images/androidannotation.jpg)
 不过最终我们还是选择了ButterKnife，它比较轻量级，如果直接就上AA，担心步子迈得太大，大家不(rong)太(yi)习(che)惯(dan)，不过其实最主要原因还是因为Butterknife提供了IDE插件，其实我们的android项目之前也有一套自己写的简单的ViewInject的注解，但是没有插件支持，所以插件支持很重要，它能真正帮助我们解放体力活。
 下面gif是官网提供的介绍动画
 ![butterknife](http://plugins.jetbrains.com/files/7369/screenshot_14384.png)
