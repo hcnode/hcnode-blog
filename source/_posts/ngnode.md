@@ -1,10 +1,10 @@
 title: MEAN框架介绍：ngNode
 date: 2015-08-17 16:00:00
-tags: node.js
+tags: [node.js, mean]
 ---
 
 ## ngNode
-ngNode是一个可以简单快速开发MEAN web应用的framework
+[ngNode](https://github.com/hcnode/ngNode)是一个可以简单快速开发MEAN web应用的framework
 
 ## 特点
 * 实时的MEAN应用，通过配置生成web api，angularjs构建ui界面.

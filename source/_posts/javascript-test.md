@@ -1,6 +1,6 @@
 title: Javascript单元测试？和大神一起来品尝咖啡吧
 date: 2015-07-02 15:26:37
-tags: node.js
+tags: [node.js, test]
 ---
 
 ## 关于分享

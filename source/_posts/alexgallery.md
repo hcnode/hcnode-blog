@@ -1,6 +1,6 @@
 title: AlexGallery：一款基于node.js和nw的图片浏览、预览、批量处理、编辑的开源桌面应用
 date: 2015-08-21 10:37:40
-tags: node.js
+tags: [node.js, nw, lwip]
 ---
 ![screenshot1](https://raw.githubusercontent.com/hcnode/AlexGallery/master/screenshot1.png)
 
