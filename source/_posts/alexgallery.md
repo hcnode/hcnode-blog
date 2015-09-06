@@ -2,7 +2,7 @@ title: AlexGallery：一款基于node.js和nw的图片浏览、预览、批量�
 date: 2015-08-21 10:37:40
 tags: [node.js, nw, lwip]
 ---
-![screenshot1](https://raw.githubusercontent.com/hcnode/AlexGallery/master/screenshot1.png)
+![screenshot1](https://raw.githubusercontent.com/hcnode/AlexGallery/master/screenshots/screenshot1.png)
 
 # 关于AlexGallery
 
@@ -47,11 +47,11 @@ tags: [node.js, nw, lwip]
  - 首次进入文件夹预览图片时候，AlexGallery会自动生成最大200px尺寸的缩略图，所以第一次浏览的时候需要点时间来生成
 
 # 截图
- ![screenshot1](https://raw.githubusercontent.com/hcnode/AlexGallery/master/screenshot1.png)
- ![screenshot2](https://raw.githubusercontent.com/hcnode/AlexGallery/master/screenshot2.png)
- ![screenshot3](https://raw.githubusercontent.com/hcnode/AlexGallery/master/screenshot3.png)
- ![screenshot4](https://raw.githubusercontent.com/hcnode/AlexGallery/master/screenshot4.png)
- ![screenshot5](https://raw.githubusercontent.com/hcnode/AlexGallery/master/screenshot5.png)
+ ![screenshot1](https://raw.githubusercontent.com/hcnode/AlexGallery/master/screenshots/screenshot1.png)
+ ![screenshot2](https://raw.githubusercontent.com/hcnode/AlexGallery/master/screenshots/screenshot2.png)
+ ![screenshot3](https://raw.githubusercontent.com/hcnode/AlexGallery/master/screenshots/screenshot3.png)
+ ![screenshot4](https://raw.githubusercontent.com/hcnode/AlexGallery/master/screenshots/screenshot4.png)
+ ![screenshot5](https://raw.githubusercontent.com/hcnode/AlexGallery/master/screenshots/screenshot5.png)
 
 # Libraries dependencies
  - [lwip](https://github.com/EyalAr/lwip) Light Weight Image Processor for NodeJS

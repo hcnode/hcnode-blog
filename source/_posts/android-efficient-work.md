@@ -34,10 +34,12 @@ Android Annotation看上去功能最强大，支持大量的注解，除了view�
 ![androidannotation](https://raw.githubusercontent.com/hcnode/hcnode-blog/master/images/androidannotation.jpg)
 
 不过最终我们还是选择了ButterKnife，它比较轻量级，如果直接就上AA，担心步子迈得太大，大家不(rong)太(yi)习(che)惯(dan)，不过其实最主要原因还是因为Butterknife提供了IDE插件，其实我们的android项目之前也有一套自己写的简单的ViewInject的注解，但是没有插件支持，所以插件支持很重要，它能真正帮助我们解放体力活。
-下面gif是官网提供的介绍动画
+下面是ButterKnife的使用介绍动画
+
 ![butterknife](https://raw.githubusercontent.com/hcnode/hcnode-blog/master/images/screenshot_14384.png)
 
 另外插件还可以配置生成view的私有变量的前缀，比如统一前面加“m”前缀
+
 ![butterknife_plugin](https://github.com/hcnode/hcnode-blog/blob/master/images/butterknife.png?raw=true)
 
 ### 批量生成通用模块的模版
@@ -45,10 +47,13 @@ Android Annotation看上去功能最强大，支持大量的注解，除了view�
 我使用了一个完全没有技术含量的方法来做这些“体力活”，我在项目里面创建了一个工具，然后通过自定义模块来生成需要的文件
 
  - **首先，创建模版文件**
+
  我新建立了一个module叫“templateutil”，里面包括需要创建的模版template目录，可以将通用的activity、fragment、layout放在里面
+
  ![template_folder](https://raw.githubusercontent.com/hcnode/hcnode-blog/master/images/template_folders.png)
 
  - **创建了两个给gradle执行任务的class**
+
  分别是CreateListActivity用来创建相关一整套的class和layout、和CreateModel用来创建model层相关class
 
 ```java
@@ -116,6 +121,7 @@ public class CreateModel {
 }
 ```
  - **在gradle配置里面，增加两个task**
+
 两个task分别创建ListActivity任务和创建Model任务
 
 ```groovy
@@ -138,6 +144,7 @@ task createListActivity (type: JavaExec, dependsOn: classes) {
 ```
 
  - **然后就可以使用了**
+
 ```bash
 harry$ gradle createListActivity -Pmodel=wishlist
 ```
@@ -154,7 +161,7 @@ harry$ gradle createListActivity -Pmodel=wishlist
 
 >Android SDK sucks. It's so slow to build and run which waste me a lot of time every day.
 
-LayoutCast最大的好处是，不需要修改太多的代码，速度方面在介绍中有数据对比，据称比buck还要快，我试过放入我们的项目，可能是因为我们的项目结果比较复杂，一直没有运行成功，不过我新建project测试是可以用的
+LayoutCast最大的好处是，不需要修改太多的代码，速度方面在介绍中有数据对比，据称比buck还要快，我试过放入我们的项目，可能是因为我们的项目结构比较复杂module比较多，一直没有运行成功，不过我新建project测试是可以用的
 
 ### webview调试插件
 有个很好用的调试真机webview的[chrome插件](https://chrome.google.com/webstore/detail/adb/dpngiggdglpdnjdoaefidgiigpemgage)，通过adb连接直接调试真机，而不需要chrome模拟移动设备
