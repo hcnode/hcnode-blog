@@ -5,7 +5,7 @@ tags:
 
 
 ## about me
-I am software engineer
+software engineer
 
 ## github
 [hcnode](https://www.github.com/hcnode)

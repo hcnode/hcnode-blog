@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.github.com/hcnode
+url: http://hcnode.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -67,8 +67,29 @@ theme: next
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
+
 deploy:
   type: git
   repo: https://github.com/hcnode/hcnode.github.io
   branch: master
   message:
+
+#deploy:
+#  type: ftpsync
+#  host: 121.40.95.68
+#  user: ftpuser1
+#  pass: harry163
+#  remote: /home/myblog/public
+#  port: 21
+#  ignore:
+#  connections: 1
+#  verbose: true
+
+sitemap:
+    path: sitemap.xml
+
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
