@@ -74,17 +74,6 @@ deploy:
   branch: master
   message:
 
-#deploy:
-#  type: ftpsync
-#  host: 121.40.95.68
-#  user: ftpuser1
-#  pass: harry163
-#  remote: /home/myblog/public
-#  port: 21
-#  ignore:
-#  connections: 1
-#  verbose: true
-
 sitemap:
     path: sitemap.xml
 
