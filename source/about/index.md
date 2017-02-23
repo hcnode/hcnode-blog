@@ -3,9 +3,9 @@ date: 2015-07-02 15:26:37
 tags:
 ---
 
-
 ## about me
-software engineer
+JS full stack developer
+Android developer
 
 ## github
 [hcnode](https://www.github.com/hcnode)
